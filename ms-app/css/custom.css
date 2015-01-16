@@ -1,0 +1,159 @@
+	/*
+	Proyecto: App MysteryShop;
+	Autor: Angel Vásquez;
+	Empresa: Btech;
+	Fecha: 15-01-2015;
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:500,900,700,400);
+body{font:14px/140% "Open Sans", Helvetica, sans-serif; color:#333; background: #f4f3f2;	}
+
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-bottom: 2px;
+    margin-top: 0px;
+    line-height: 100%;
+}
+
+	h2{
+		font-size:15px;
+		font-weight: 700;
+	}
+
+		h3{
+		font-size:13px;
+		font-weight: 700;
+	}
+
+
+p{
+		font-size: 11px;
+		font-weight: 700;
+		color:#7f8c8d;
+		margin-bottom:0px;
+		line-height: 130%;
+	}
+
+.topbar{
+	background:#e67e22;
+	margin-bottom: 0;
+	border:0;
+}
+
+.topbar h1{
+	font-size:20px;
+	color:#fff;
+	margin:10px 0;
+}
+
+.tabs{
+	background: #f2a25c;
+	color:#cf5200;
+	font-weight: 700;
+	height:49px;
+	padding:14px;
+}
+	.tabs.active{
+		background: #d05300;
+		color:#fff;
+		box-shadow: inset 0 0 50px #a84300;
+	}
+
+	.tabs img{
+		vertical-align: baseline;
+		margin-right: 3px;
+	}
+
+.pull-right {
+  float: right ;
+}
+.pull-left {
+  float: left ;
+}
+
+.filter-ico{
+	--margin-top: 10px;
+}
+
+.cont-row{
+	margin-left: -12px;
+    margin-right: -12px;
+}
+/*pruebas*/
+/*[class*="col"]{
+	background: #ccc;
+	outline:1px solid #FFF;
+	margin-bottom: 10px;
+}*/
+
+.card, .card-int{
+	/*margin:5px;*/
+	background:#fff;
+	margin:2px;
+	box-shadow:0 0 3px #ccc;
+}
+	.card-int{
+		margin:0;
+		margin-bottom: 5px;
+		padding:5px 10px;
+	}
+
+	.card-int h3{
+		margin-top: 0px;
+		line-height: 140%;
+	}
+
+	.card-int p{
+		line-height: 160%;
+		color: #414562;
+	}
+
+.misiones{
+	font-size: 11px;
+	background:#e3e9f9;
+	color: #192e40;
+	padding:0 5px;
+	margin-bottom: 10px;
+	display: block;
+	border-radius: 10px;
+}
+
+.datos{
+	color:#1a1919;
+	font-weight: bold;
+	font-size: 10px;
+	padding:2px;
+}
+
+.info-campana{
+	background: #ecf0f1;
+	padding:10px 0;
+}
+	.info-campana img{
+		margin-left: 5px;
+	}
+
+.dist-detalle{
+	font-weight: 700;
+	font-size: 12px;
+	color:#414562;
+	padding-top: 3px;
+	margin:0;
+	outline: 0px solid red;
+	width:20%;
+	padding:3px;
+}
+	.dist-detalle img{
+		display:block;
+		margin: auto;
+	}
+
+
+
+/*.col-xs-4 {
+    width: 31.6%;
+}*/
+
+/* Larger than mobile */
+@media (mix-width: 480px) {
+	.card{background: red; width:30%; border:1px solid #CCCCCC; margin-left:5px; margin-bottom:5px;}
+}
