@@ -147,7 +147,34 @@ p{
 		margin: auto;
 	}
 
+/*LOGIN*/
+.campo{
+	margin: 10px 0 5px 0;
+}
 
+.btn-ingreso{
+	background:#e4542f;
+	color:#FFF;
+}
+
+.btn-secundario{
+	margin: 10px 0 0 0;
+}
+	.btn-fb{
+		background:#3a5795;
+		color:#FFF;
+	}
+
+	.btn-gmas{
+		background: #d73d32;
+		color:#FFF;
+	}
+
+	.btn-registro{
+		background: none;
+		border:1px solid #FFF;
+		color:#FFF;
+	}
 
 /*.col-xs-4 {
     width: 31.6%;
