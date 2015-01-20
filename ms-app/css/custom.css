@@ -78,12 +78,7 @@ p{
 	margin-left: -12px;
     margin-right: -12px;
 }
-/*pruebas*/
-/*[class*="col"]{
-	background: #ccc;
-	outline:1px solid #FFF;
-	margin-bottom: 10px;
-}*/
+
 
 .card, .card-int{
 	/*margin:5px;*/
@@ -153,6 +148,10 @@ p{
 	padding:5px;
 }
 
+.btn{
+	padding: 10px 5px;
+}
+
 .btn-ingreso{
 	background:#e4542f;
 	color:#FFF;
@@ -177,9 +176,6 @@ p{
 		color:#FFF;
 	}
 
-/*.col-xs-4 {
-    width: 31.6%;
-}*/
 
 /* Larger than mobile */
 @media (mix-width: 480px) {
