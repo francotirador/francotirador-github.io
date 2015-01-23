@@ -47,12 +47,14 @@
 	width: 90px;
 	cursor:pointer;
 	margin:420px 0 0 45px;
+	-moz-opacity: .3;
 }
 	
 	.det-agua{
 		margin-left: 5px;
 		margin-top: 380px;
 		background: url(img/ico-agua.png) no-repeat center 103%;
+		opacity: .3;
 	}
 
 	.det-terreno{
@@ -123,6 +125,10 @@
 	padding: 0 5px;
 	border-radius: 5px;
 	width:110px;
+}
+
+.opacidad{
+	opacity: 1;
 }
 
 
@@ -199,9 +205,8 @@
 <script>
 $(function(){
 	$(".det-agua").hover(function(){
-		$("#con").addClass("resaltar", 500, "easeOutBounce");}, 
-  			function () {
-    			$("#con").removeClass("resaltar",500, "easeOutBounce");
+		$("#con").toggleClass("resaltar", 500, "easeOutBounce");
+		$(".det-agua").toggleClass("opacidad", 500, "easeOutBounce");
   	});
 
   	$(".det-terreno").hover(function(){
@@ -223,13 +228,19 @@ $(function(){
   	});
 
   	/*BOTONES*/
+
   	$("#con").hover(function(){
+		$("#con").toggleClass("resaltar", 500, "easeOutBounce");
+		$(".det-agua").toggleClass("opacidad", 500, "easeOutBounce");
+	});
+
+  	/*$("#con").hover(function(){
 		$("#con").addClass("resaltar", 500, "easeOutBounce");
 	}, function () {
 		$("#con").removeClass("resaltar",500, "easeOutBounce");
 	}, function () {
-		$("#ico-agua").remove("det-agua");
-	});
+		 $("#ico-agua").removeClass("det-agua");
+	});*/
 });
 </script>
 </body>
