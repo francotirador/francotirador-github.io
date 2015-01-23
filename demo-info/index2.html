@@ -55,18 +55,23 @@
 		margin-top: 380px;
 		background: url(img/ico-agua.png) no-repeat center 103%;
 		opacity: .3;
+		cursor:pointer;
 	}
 
 	.det-terreno{
-		background: url(img/terreno-icon.png) no-repeat center 103%;
-		margin-left: 30px;
-		margin-top: 333px;
+		background: url(img/ico-terreno.png) no-repeat center 103%;
+		margin-left: 5px;
+		margin-top: 320px;
+		opacity: .3;
+		cursor:pointer;
 	}
 
 	.det-infra{
-		background: url(img/infra-icon.png) no-repeat center 103%;
-		margin-left: 30px;
-		margin-top: 275px;
+		background: url(img/ico-infra.png) no-repeat center 103%;
+		margin-left: 5px;
+		margin-top: 270px;
+		opacity: .3;
+		cursor:pointer;
 	}
 
 	.det-mina{
@@ -96,6 +101,7 @@
 	.terrenos{
 			background: url(img/terreno-guide.png) no-repeat center 215px;
 			height:100%;
+			cursor:pointer;
 		}
 
 
@@ -107,6 +113,7 @@
 	.infraestructura{
 			background: url(img/terreno-guide.png) no-repeat center 170px;
 			height:100%;
+			cursor:pointer;
 		}
 
 .mina{
@@ -210,15 +217,13 @@ $(function(){
   	});
 
   	$(".det-terreno").hover(function(){
-		$("#pla").addClass("resaltar", 500, "easeOutBounce");}, 
-  			function () {
-    			$("#pla").removeClass("resaltar",500, "easeOutBounce");
+		$("#pla").toggleClass("resaltar", 500, "easeOutBounce");
+		$(".det-terreno").toggleClass("opacidad", 500, "easeOutBounce");
   	});
 
   	$(".det-infra").hover(function(){
-		$("#fer").addClass("resaltar", 500, "easeOutBounce");}, 
-  			function () {
-    			$("#fer").removeClass("resaltar",500, "easeOutBounce");
+		$("#fer").toggleClass("resaltar", 500, "easeOutBounce");
+		$(".det-infra").toggleClass("opacidad", 500, "easeOutBounce");
   	});
 
   	$(".det-mina").hover(function(){
@@ -232,6 +237,16 @@ $(function(){
   	$("#con").hover(function(){
 		$("#con").toggleClass("resaltar", 500, "easeOutBounce");
 		$(".det-agua").toggleClass("opacidad", 500, "easeOutBounce");
+	});
+
+	$("#pla").hover(function(){
+		$("#pla").toggleClass("resaltar", 500, "easeOutBounce");
+		$(".det-terreno").toggleClass("opacidad", 500, "easeOutBounce");
+	});
+
+	$("#fer").hover(function(){
+		$("#fer").toggleClass("resaltar", 500, "easeOutBounce");
+		$(".det-infra").toggleClass("opacidad", 500, "easeOutBounce");
 	});
 
   	/*$("#con").hover(function(){
