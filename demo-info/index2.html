@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+<link href='http://fonts.googleapis.com/css?family=Hind:400,700,500,600,300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+<style>
+	*{
+		outline: 0px solid red;
+		margin:0;
+		padding:0;
+
+	}
+
+	body{
+		background: #fffcf5;
+		font-size: 12px;
+		font-family: "Hind", sans-serif;
+	}
+	
+	ul > li{
+		width:110px;
+		font-size:11px;
+		list-style-type: none;
+	}
+
+	.info{
+		background:url(img/img-info.png) no-repeat center bottom;
+		height:650px;
+		margin:0 auto;
+		width:700px;
+	}
+
+	.det{
+		float:left;
+		margin-left: 10px;
+		height:450px;
+		width:110px;
+		position: absolute;
+	}
+
+
+.more-info{
+	height: 90px;
+	position: absolute;
+	width: 90px;
+	cursor:pointer;
+	margin:420px 0 0 45px;
+}
+	
+	.det-agua{
+		margin-left: 5px;
+		margin-top: 380px;
+		background: url(img/ico-agua.png) no-repeat center 103%;
+	}
+
+	.det-terreno{
+		background: url(img/terreno-icon.png) no-repeat center 103%;
+		margin-left: 30px;
+		margin-top: 333px;
+	}
+
+	.det-infra{
+		background: url(img/infra-icon.png) no-repeat center 103%;
+		margin-left: 30px;
+		margin-top: 275px;
+	}
+
+	.det-mina{
+		background: url(img/mina-icon.png) no-repeat center 103%;
+		margin-left: 30px;
+		margin-top: 210px;
+	}
+
+.agua{
+	height:460px;
+	width:120px;
+	margin-left: 120px;
+}
+		.aguas{
+			background: url(img/agua-guide.png) no-repeat center 135px;
+			height:100%;
+			padding-top: 0px;
+			cursor:pointer;
+		}
+
+
+.terreno{
+	height:380px;
+	width:120px;
+	margin-left: 260px;
+}
+	.terrenos{
+			background: url(img/terreno-guide.png) no-repeat center 215px;
+			height:100%;
+		}
+
+
+.infra{
+	height:300px;
+	width:120px;
+	margin-left: 400px;
+}
+	.infraestructura{
+			background: url(img/terreno-guide.png) no-repeat center 170px;
+			height:100%;
+		}
+
+.mina{
+	height:300px;
+	width:120px;
+	margin-left: 540px;
+}
+	.mineria{
+			background: url(img/mina-guide.png) no-repeat center 170px;
+			height:100%;
+		}
+
+.resaltar{
+	background:#0e76bc;
+	color:#FFF;
+	padding: 0 5px;
+	border-radius: 5px;
+	width:110px;
+}
+
+
+</style>
+
+</head>
+<body>
+
+	<div class="info">
+		<div class="agua det">
+			<div id="ico-agua" class="more-info det-agua"></div>
+			<div class="aguas">
+    		<h3>Aguas</h3>
+			    <ul>
+			    	<li>Derechos de Agua</li>
+			    	<li>Acueductos</li>
+			    	<li id="con">Concesiones Marítimas</li>
+			    	<li>Áreas de Restricción</li>
+			    	<li>Remates</li>
+			    </ul> 
+			</div>
+		</div>	
+		
+		<div class="terreno det">
+			<div class="more-info det-terreno"></div>
+			<div class="terrenos">
+    		<h3>Terrenos</h3>
+			    <ul>
+			    	<li>Derechos Superficiales</li>
+			    	<li>Catastros</li>
+			    	<li>Roles, Titulares, Inscripción</li>
+			    	<li id="pla">Planificación Territorial</li>
+			    	<li>SEIA</li>
+			    	<li>Áreas Protegidas</li>
+			    	<li>Derechos, Áreas Indígenas</li>
+			    </ul> 
+			</div>
+		</div>
+
+		<div class="infra det">
+			<div class="more-info det-infra"></div>
+			<div class="infraestructura">
+    		<h3>Infraestructura</h3>
+			    <ul>
+			    	<li>Concesiones Infraestructura</li>
+			    	<li>Tendidos Eléctricos</li>
+			    	<li>Gasoductos</li>
+			    	<li>Planificación Territorial</li>
+			    	<li id="fer">Líneas Férreas</li>
+			    	<li>Caminos</li>
+			    </ul> 
+			</div>
+		</div>
+
+		<div class="mina det">
+			<div class="more-info det-mina"></div>
+			<div class="mineria">
+		    	<h3>Mineria</h3>
+					<ul>
+					   	<li>Derechos Mineros</li>
+					    <li>Catastros Mineros</li>
+					    <li>Restricciones</li>
+					    <li>Vigencia, Validez, Amparo</li>
+					    <li id="sup">Superposiciones</li>
+					    <li>Due Diligence</li>
+					</ul> 
+			</div>
+		</div>
+
+	</div>
+
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="https://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+<script>
+$(function(){
+	$(".det-agua").hover(function(){
+		$("#con").addClass("resaltar", 500, "easeOutBounce");}, 
+  			function () {
+    			$("#con").removeClass("resaltar",500, "easeOutBounce");
+  	});
+
+  	$(".det-terreno").hover(function(){
+		$("#pla").addClass("resaltar", 500, "easeOutBounce");}, 
+  			function () {
+    			$("#pla").removeClass("resaltar",500, "easeOutBounce");
+  	});
+
+  	$(".det-infra").hover(function(){
+		$("#fer").addClass("resaltar", 500, "easeOutBounce");}, 
+  			function () {
+    			$("#fer").removeClass("resaltar",500, "easeOutBounce");
+  	});
+
+  	$(".det-mina").hover(function(){
+		$("#sup").addClass("resaltar", 500, "easeOutBounce");}, 
+  			function () {
+    			$("#sup").removeClass("resaltar",500, "easeOutBounce");
+  	});
+
+  	/*BOTONES*/
+  	$("#con").hover(function(){
+		$("#con").addClass("resaltar", 500, "easeOutBounce");
+	}, function () {
+		$("#con").removeClass("resaltar",500, "easeOutBounce");
+	}, function () {
+		$("#ico-agua").remove("det-agua");
+	});
+});
+</script>
+</body>
+</html>
+
