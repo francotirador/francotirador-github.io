@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	 <meta charset="utf-8">
+  <!-- If you delete this meta tag World War Z will become a reality -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu CHR</title>
+
+  <!-- If you are using the CSS version, only link these 2 files, you may add app.css to use for your overrides if you like -->
+  <link rel="stylesheet" href="assets/css/normalize.css">
+  <link rel="stylesheet" href="assets/css/foundation.css">
+
+  <!-- If you are using the gem version, you need this only -->
+
+  <script src="assets/js/vendor/modernizr.js"></script>
+
+  <style>
+		*{
+			--outline: 1px solid red;
+		}
+
+		.logo-header{
+			width: 100px;
+		}
+		.top-bar{
+			background:none;
+		}	
+
+		.top-bar-section ul li {
+    		background: none;
+		}
+
+			.top-bar-section li:not(.has-form) a:not(.button) {
+		    background: none;
+		    line-height: 2.8125rem;
+		    padding: 0 0.9375rem;
+		}
+
+		.top-bar-section ul li > a{
+			color:#2a401b;
+			font-size: 16px;
+		}
+
+		.idiomas{
+		  margin: 1em 0;
+		}
+		.idiomas a{
+		    color: rgb(153, 105, 69) ;
+		    font-size: 0.6em;
+		    padding: 0.5em;
+		 }
+
+		 .idiomas a:last-child{
+		      padding-right: 0;
+		}
+		    .idiomas a:hover{
+		      color: darken(rgb(153, 105, 69), 10%);
+		}
+
+
+/*MENU*/
+.menu ul{
+    list-style: none;
+    float: right;
+    margin-top: 86px;
+    padding: 0;
+}
+.menu ul > li{
+      display: inline-block;
+      font-size: 1.1em;
+      padding: 0 0.7em 0 0.7em;
+      margin-right: 0.5em;
+}
+.menu ul > li a{
+        padding: 0 0.7em 0 0.8em;
+        line-height: 50%;
+        background: url(../assets/border-button.png) no-repeat left 41%;
+        -webkit-transition: color 300ms ease-out;
+        -moz-transition: color 300ms ease-out;
+        transition: color 300ms ease-out;
+}
+.menu ul > li a:hover{
+          color: #996945;
+          background: url(../assets/border-button-r.png) no-repeat left 41%;
+}
+
+@media screen and (max-width: 481px){
+  .logo-header{width: 100px;}
+  .info{display: none;}
+  .menu ul{margin-top:0;}
+ }
+
+
+  </style>
+
+</head>
+<body>
+	<div class="row">
+		<div class="columns large-12 medium-12 text-right idiomas"><a href="#">Español</a><a href="#">Inglés</a></div>
+	</div>
+	<div class="row"></div>
+		<nav class="top-bar" data-topbar>
+	        <ul class="title-area">
+	          <li class="name"><h1><a href="#">Logo</a></h1></li>
+	          <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+	        </ul>
+
+	        <section class="top-bar-section menu">
+	        <!-- Button Nav Section -->
+	          <ul class="right">
+	            <li><a href="#">Inicio</a></li>
+	            <li><a href="#">Nuestra Empresa</a></li>
+	            <li><a href="#">Equipo</a></li>
+	            <li><a href="#">Servicios</a></li>
+	            <li><a href="#">Clientes</a></li>
+	            <li><a href="#">Contacto</a></li>
+	          </ul>
+	        </section>
+	      </nav>
+	
+
+
+
+<script src="assets/js/vendor/jquery.js"></script>
+  <script src="assets/js/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+</body>
+</html>
