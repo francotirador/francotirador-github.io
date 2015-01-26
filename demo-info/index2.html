@@ -68,8 +68,8 @@
 
 	.det-infra{
 		background: url(img/ico-infra.png) no-repeat center 103%;
-		margin-left: 5px;
-		margin-top: 270px;
+		margin-left: 15px;
+		margin-top: 265px;
 		opacity: .3;
 		cursor:pointer;
 	}
@@ -77,12 +77,12 @@
 	.det-mina{
 		background: url(img/ico-mineria.png) no-repeat center 103%;
 		margin-left: 10px;
-		margin-top: 210px;
+		margin-top: 200px;
 		cursor:pointer;
 		opacity: .3;
 	}
 
-#con, #pla, #fer, #sup{
+#con, #der, #tend, #dmin{
 	font-weight: bold;
 	cursor: pointer;
 }
@@ -93,7 +93,7 @@
 	margin-left: 120px;
 }
 		.aguas{
-			background: url(img/agua-guide.png) no-repeat center 135px;
+			background: url(img/agua-guide.png) no-repeat center 130px;
 			height:100%;
 			padding-top: 0px;
 		}
@@ -116,7 +116,7 @@
 	margin-left: 400px;
 }
 	.infraestructura{
-			background: url(img/terreno-guide.png) no-repeat center 170px;
+			background: url(img/infra-guide.png) no-repeat center 170px;
 			height:100%;
 		}
 
@@ -168,10 +168,10 @@
 			<div class="terrenos">
     		<h3>Terrenos</h3>
 			    <ul>
-			    	<li>Derechos Superficiales</li>
+			    	<li id="der">Derechos Superficiales</li>
 			    	<li>Catastros</li>
 			    	<li>Roles, Titulares, Inscripción</li>
-			    	<li id="pla">Planificación Territorial</li>
+			    	<li>Planificación Territorial</li>
 			    	<li>SEIA</li>
 			    	<li>Áreas Protegidas</li>
 			    	<li>Derechos, Áreas Indígenas</li>
@@ -185,10 +185,10 @@
     		<h3>Infraestructura</h3>
 			    <ul>
 			    	<li>Concesiones Infraestructura</li>
-			    	<li>Tendidos Eléctricos</li>
+			    	<li id="tend">Tendidos Eléctricos</li>
 			    	<li>Gasoductos</li>
 			    	<li>Planificación Territorial</li>
-			    	<li id="fer">Líneas Férreas</li>
+			    	<li>Líneas Férreas</li>
 			    	<li>Caminos</li>
 			    </ul> 
 			</div>
@@ -199,11 +199,11 @@
 			<div class="mineria">
 		    	<h3>Mineria</h3>
 					<ul>
-					   	<li>Derechos Mineros</li>
+					   	<li id="dmin">Derechos Mineros</li>
 					    <li>Catastros Mineros</li>
 					    <li>Restricciones</li>
 					    <li>Vigencia, Validez, Amparo</li>
-					    <li id="sup">Superposiciones</li>
+					    <li>Superposiciones</li>
 					    <li>Due Diligence</li>
 					</ul> 
 			</div>
@@ -221,17 +221,17 @@ $(function(){
   	});
 
   	$(".det-terreno").hover(function(){
-		$("#pla").toggleClass("resaltar", 500, "easeOutBounce");
+		$("#der").toggleClass("resaltar", 500, "easeOutBounce");
 		$(".det-terreno").toggleClass("opacidad", 500, "easeOutBounce");
   	});
 
   	$(".det-infra").hover(function(){
-		$("#fer").toggleClass("resaltar", 500, "easeOutBounce");
+		$("#tend").toggleClass("resaltar", 500, "easeOutBounce");
 		$(".det-infra").toggleClass("opacidad", 500, "easeOutBounce");
   	});
 
   	$(".det-mina").hover(function(){
-		$("#sup").toggleClass("resaltar", 500, "easeOutBounce");
+		$("#dmin").toggleClass("resaltar", 500, "easeOutBounce");
 		$(".det-mina").toggleClass("opacidad", 500, "easeOutBounce");
   	});
 
@@ -242,18 +242,18 @@ $(function(){
 		$(".det-agua").toggleClass("opacidad", 500, "easeOutBounce");
 	});
 
-	$("#pla").hover(function(){
-		$("#pla").toggleClass("resaltar", 500, "easeOutBounce");
+	$("#der").hover(function(){
+		$("#der").toggleClass("resaltar", 500, "easeOutBounce");
 		$(".det-terreno").toggleClass("opacidad", 500, "easeOutBounce");
 	});
 
-	$("#fer").hover(function(){
-		$("#fer").toggleClass("resaltar", 500, "easeOutBounce");
+	$("#tend").hover(function(){
+		$("#tend").toggleClass("resaltar", 500, "easeOutBounce");
 		$(".det-infra").toggleClass("opacidad", 500, "easeOutBounce");
 	});
 
-	$("#sup").hover(function(){
-		$("#sup").toggleClass("resaltar", 500, "easeOutBounce");
+	$("#dmin").hover(function(){
+		$("#dmin").toggleClass("resaltar", 500, "easeOutBounce");
 		$(".det-mina").toggleClass("opacidad", 500, "easeOutBounce");
 	});
 
