@@ -7172,11 +7172,11 @@
 	    text-align:center;
 	    border:1px solid transparent;
 	    background:#f5f5f5;
-	    color:#8ec449;
+	    color:#07aa91;
 	    opacity:1
 	}
 	.carousel-3 .carousel-nav a:hover {
-	    background:#8ec449 !important;
+	    background:#07aa91 !important;
 	    color:#fff
 	}
 	.carousel-3 .carousel-nav a.left {
@@ -7696,7 +7696,7 @@
 	    border-radius:3px
 	}
 	#toTopHover {
-	    background:#8ec449;
+	    background:#07aa91;
 	    width:40px;
 	    height:40px;
 	    display:block;
@@ -8445,7 +8445,7 @@
 	    color:#fff !important
 	}
 	.btn-b-white:hover, .btn-b-white:focus, .btn-b-white:active, .btn-b-white.active, .open .dropdown-toggle.btn-b-white {
-	    color:#8ec449 !important;
+	    color:#07aa91 !important;
 	    background-color:#fff;
 	    border-color:#fff
 	}
