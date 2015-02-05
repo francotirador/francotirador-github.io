@@ -8283,7 +8283,7 @@
 	    color:#fff
 	}
 	.panel-dark .bb {
-	    border-color:#0b0b0b
+	    border-color:#0b0b0b;
 	}
 	.panel-light {
 	    background:#ecf0f1;
@@ -8296,7 +8296,7 @@
 	    color:#2c3e50
 	}
 	.panel-light .bb {
-	    border-color:#e3e9eb
+	    border-color:#e3e9eb;
 	}
 	.panel {
 	    -webkit-box-shadow:none;
