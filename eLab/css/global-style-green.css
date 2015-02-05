@@ -1830,6 +1830,15 @@
 		padding-bottom: 50px;
 	}
 
+	.step-2{
+		background: url(../images/steps/line-2.png) no-repeat 355px 35px;
+	}
+
+	.step-3{
+		background: url(../images/steps/line-3.png) no-repeat 240px 35px;
+		padding-bottom: 50px;
+	}
+
 	.steps p {
 		color:#616161;
 		font-size: 15px;
@@ -1864,7 +1873,7 @@
 	}
 
 	.step1-detail{
-		width:40%;
+		width:55%;
 		margin-left: 200px;
 	}
 
@@ -1874,13 +1883,18 @@
 	}
 
 	.step-plan.p2{
-		width:450px;
+		width:500px;
 		margin-left: 37%;
 		margin-bottom: 40px;
 	}
 
 	.step-plan.p3{
-		width:550px;
+		width:650px;
+		margin-left: 25%;
+		margin-bottom: 40px;
+	}
+	.step-plan.p4{
+		width:500px;
 		margin-left: 25%;
 		margin-bottom: 40px;
 	}
