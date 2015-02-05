@@ -1821,6 +1821,14 @@
 	    color:#333 !important;
 	    font-size: 21px;
 	}
+	
+	.step-container .container{
+	}
+
+	.step-1{
+		background: url(../images/steps/line-1.png) no-repeat 90px 45px;
+		padding-bottom: 50px;
+	}
 
 	.steps p {
 		color:#616161;
@@ -1834,7 +1842,6 @@
 		background: url(../images/steps/bg-step-number.png) no-repeat #dfe0df;
 		height: 44px;
 		padding:5px 0 10px 36px;
-		margin-bottom: 40px;
 	}
 
 	.step-plan h2{
@@ -1849,10 +1856,33 @@
 		margin-left: 50px;
 		color:#46494a;
 	}
+		
+	.step-plan.p1{
+		width:450px;
+		margin-left: 0;
+		margin-bottom: 30px;
+	}
+
+	.step1-detail{
+		width:40%;
+		margin-left: 200px;
+	}
+
+	.step3-detail{
+		width:50%;
+		margin-left: 275px;
+	}
 
 	.step-plan.p2{
 		width:450px;
 		margin-left: 37%;
+		margin-bottom: 40px;
+	}
+
+	.step-plan.p3{
+		width:550px;
+		margin-left: 25%;
+		margin-bottom: 40px;
 	}
 
 	.wp-block.white .thmb-img i {
