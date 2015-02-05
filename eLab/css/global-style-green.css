@@ -1021,8 +1021,8 @@
 	}
 	.navbar-wp .navbar-nav>li>a:hover, .navbar-wp .navbar-nav>li>a:focus {
 	    color:#fff;
-	    background-color:#07aa91;
-	    border-top:3px solid #07aa91;
+	    background-color:#09D5B6;
+	    border-top:3px solid #09D5B6;
 	}
 	.navbar-wp .navbar-nav li.divider {
 	    margin:0;
@@ -1351,7 +1351,7 @@
 	}
 	.navbar-wp .navbar-nav>li>a:hover, .navbar-wp .navbar-nav>li>a:focus, .nav li .active {
 	    color:#fff;
-		background-color: #07aa91;
+		background-color: #09D5B6;
 	}
 	.navbar-base .navbar-nav>li>a.dropdown-form-toggle {
 	    color:#fff
@@ -1870,6 +1870,7 @@
 		width:450px;
 		margin-left: 0;
 		margin-bottom: 30px;
+		text-align: left;
 	}
 
 	.step1-detail{
@@ -1886,17 +1887,20 @@
 		width:500px;
 		margin-left: 37%;
 		margin-bottom: 40px;
+		text-align: left;
 	}
 
 	.step-plan.p3{
 		width:650px;
 		margin-left: 25%;
 		margin-bottom: 40px;
+		text-align: left;
 	}
 	.step-plan.p4{
-		width:500px;
+		width:550px;
 		margin-left: 25%;
 		margin-bottom: 40px;
+		text-align: left;
 	}
 
 	.wp-block.white .thmb-img i {
