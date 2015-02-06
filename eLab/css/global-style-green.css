@@ -1841,7 +1841,7 @@
 
 	.steps p {
 		color:#616161;
-		font-size: 15px;
+		font-size: 18px;
 	    margin:10px 0 50px 0;
 	    padding:0 15px;
 	    padding-bottom:8px
@@ -1859,6 +1859,7 @@
 		color: #FFF;
 		margin:0;
 		line-height: 100%;
+		text-transform: none;
 	}
 
 	.step-plan h2 span{
@@ -6794,11 +6795,11 @@
 	    text-align:right
 	}
 	.section-title {
-	    margin:0;
+	    margin:0 0 20px 0;
 	    padding:0;
-	    font-size:16px;
+	    font-size:32px;
 	    font-weight:500;
-	    text-transform:capitalize;
+	    text-transform:none;
 	    position:relative
 	}
 	.section-title.left {
@@ -6960,7 +6961,7 @@
 	    font-size:22px;
 	    line-height:30px;
 	    color:#8ec449;
-	    text-transform:capitalize
+	    text-transform:none;
 	}
 	.layer-slider-wrapper .list-item {
 	    font-size:18px;
@@ -6992,6 +6993,11 @@
 	.layer-slider-wrapper .text-wrapped {
 	    padding:30px
 	}
+
+	.layer-slider-wrapper h3, .layer-slider-wrapper .phrase {
+		text-transform: none!important;
+	}
+
 	.static-page-image {
 	    position:relative;
 	    max-height:500px;
