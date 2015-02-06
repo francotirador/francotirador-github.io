@@ -8848,6 +8848,11 @@
 	    border-top-right-radius:0;
 	    border-top-left-radius:0
 	}
+
+	.btn-fly{
+		margin-bottom: 50px;
+	}
+
 	.dl-menuwrapper {
 	    width:100%;
 	    max-width:300px;
@@ -11172,3 +11177,23 @@
 	    }
 	}
 	
+
+
+	/*MARGEN EXTRA*/
+	 .mtx{
+	 	margin-top: 40px;
+	 } 
+
+	 .mbx{
+	 	margin-bottom: 40px;
+	 }
+
+	 /*LINKS PROTOTYPING*/
+	 #mockup-lk, #stvideo-lk, #landing-lk, #costumer-lk{
+		cursor: pointer;
+	 }
+
+	 #mockup-lk:hover, #stvideo-lk:hover, #landing-lk:hover, #costumer-lk:hover{
+		box-shadow: #cccccc 0 0 10px 0;
+		background: #d8d8d8;
+	 }
