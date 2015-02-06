@@ -14,6 +14,7 @@
     <!-- Boomerang styles -->
         <link id="wpStylesheet" type="text/css" href="css/global-style-green.css" rel="stylesheet" media="screen">
         
+
     <!-- Favicon -->
     <link href="images/favicon.png" rel="icon" type="image/png">
 
@@ -36,17 +37,19 @@
 
 <!-- MAIN WRAPPER -->
 <div class="body-wrap">
-    <!-- HEADER -->
+<!-- HEADER -->
 <div id="divHeaderWrapper">
     <header class="header-standard-2">     
     <!-- MAIN NAV -->
     <div class="navbar navbar-wp navbar-arrow mega-nav" role="navigation">
         <div class="container">
             <div class="navbar-header">
+                
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <i class="fa fa-bars icon-custom"></i>
                 </button>
-                <a class="navbar-brand" href="index.html" title="eLAB | Prototyping Ideas">
+
+                <a class="navbar-brand" href="index.html" title="Boomerang | One template. Infinite solutions">
                     <img src="images/elab-logo.png" alt="eLAB | Prototyping Ideas">
                 </a>
             </div>
@@ -60,101 +63,130 @@
                 </ul>
                
             </div><!--/.nav-collapse -->
+            
         </div>
     </div>
 </header>
 </div>
-<!-- HEADER -->
 
+<!-- Optional header components (ex: slider) -->
             
     <!-- MAIN CONTENT -->
         <div class="pg-opt">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2>Cowork</h2>
+                    <h2>Contáctenos</h2>
                 </div>
             </div>
         </div>
     </div>
-    
-    <section class="slice p-15">
-        <div class="wp-section">
-            <div class="container">
-                <div id="homepageCarousel" class="carousel carousel-1 slide color-two-l" data-ride="carousel">
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators hide">
-                        <li data-target="#homepageCarousel" data-slide-to="0" class=""></li>
-                    </ol>
-                    
-                    <div class="carousel-inner" style="height:370px;">
-                        <div class="item">
-                            <img src="images/prv/about-img-1.jpg" alt="">
-                        </div>  
-                        <div class="item active">
-                            <img src="images/prv/about-img-2.jpg" alt="">
-                        </div>        
-                    </div>
-                    
-                    <!-- Controls -->
-                    <a class="left carousel-control" href="#homepageCarousel" data-slide="prev">
-                        <i class="fa fa-angle-left"></i>
-                    </a>
-                    <a class="right carousel-control" href="#homepageCarousel" data-slide="next">
-                        <i class="fa fa-angle-right"></i>
-                    </a>     
-                </div>
-            </div>
-        </div>
+
+    <section class="slice no-padding">
+        <div id="mapCanvas" class="map-canvas no-margin"></div>
     </section>
 
-    <section class="slice white bt bb">
-        <div class="wp-section ">
+    <section class="slice bg-white">
+        <div class="w-section inverse">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="section-title-wr">
-                            <h3 class="section-title left"><span>About us</span></h3>
+                            <h3 class="section-title left"><span>Contact us</span></h3>
                         </div>
                         <p>
-                        Lorem ipsum dolor sit amet, feugiat delicata liberavisse id cum, no quo maiorum intelleget, liber regione eu sit. Mea cu case ludus integre, vide viderer eleifend ex mea. His at soluta regione diceret, cum et atqui placerat petentium. Lorem ipsum dolor sit amet, feugiat delicata liberavisse id cum, no quo maiorum intelleget, liber regione eu sit. Mea cu case ludus integre, vide viderer eleifend.
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                         </p>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="section-title-wr">
-                            <h3 class="section-title left"><span>Our history</span></h3>
-                        </div>
-                        <p>
-                        Lorem ipsum dolor sit amet, feugiat delicata liberavisse id cum, no quo maiorum intelleget, liber regione eu sit. Mea cu case ludus integre, vide viderer eleifend ex mea. His at soluta regione diceret, cum et atqui placerat petentium. Lorem ipsum dolor sit amet, feugiat delicata liberavisse id cum, no quo maiorum intelleget, liber regione eu sit. Mea cu case ludus integre, vide viderer eleifend.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="slice bg-base">
-        <div class="wp-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="text-center">
-                            <h4 class="c-white"><i class="fa fa-quote-left fa-3x"></i></h4>
-                            <h2 class="c-white">What our clients say</h2>
-                            <div class="testimonial-text c-white">
-                                <p>
-                                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                                </p>
-                                <p class="testimonial-author c-white">John Doe, The Company Inc.</p>
+                        
+                        <form class="form-light mt-20" role="form">
+                            <div class="form-group">
+                                <label>Name</label>
+                                <input type="text" class="form-control" placeholder="Your name">
                             </div>
-                            <span class="clearfix"></span>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Email</label>
+                                        <input type="email" class="form-control" placeholder="Email address">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Phone</label>
+                                        <input type="text" class="form-control" placeholder="Phone number">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label>Subject</label>
+                                <input type="text" class="form-control" placeholder="Subject">
+                            </div>
+                            <div class="form-group">
+                                <label>Message</label>
+                                <textarea class="form-control" id="message" placeholder="Write you message here..." style="height:100px;"></textarea>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <button type="reset" class="btn btn-light">Reset</button>
+                                </div>
+                                <div class="col-md-6">
+                                    <button type="submit" class="btn btn-base btn-icon btn-icon-right btn-fly pull-right">
+                                        <span>Send message</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="section-title-wr">
+                                    <h3 class="section-title left"><span>Información Comercial</span></h3>
+                                </div>
+                                <div class="contact-info">
+                                    <h5><i class="fa fa-map-marker"></i> Dirección</h5>
+                                    <p>Monjitas #550 Piso 4 Of.13 - Barrio Bellas Artes, Santiago-Chile</p>
+                                    
+                                    <h5><i class="fa fa-envelope"></i> Email</h5>
+                                    <p>contacto@elab.cl</p>
+                                    
+                                    <h5><i class="fa fa-phone"></i> Phone</h5>
+                                    <p>+56 2 2633 0489</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="section-title-wr">
+                                    <h3 class="section-title left"><span>Program</span></h3>
+                                </div>
+                                <div class="contact-info">
+                                    <h5><i class="fa fa-check"></i> Monday - Friday</h5>
+                                    <p>10:00 AM - 6:00 PM</p>
+                                    
+                                    <h5><i class="fa fa-times"></i> Saturday</h5>
+                                    <p>Closed</p>
+                                    
+                                    <h5><i class="fa fa-times"></i> Sunday</h5>
+                                    <p>Closed</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="section-title-wr">
+                            <h3 class="section-title left"><span>Stay connected</span></h3>
+                        </div>
+                        <p>
+                        Lorem ipsum dolor sit amet, consectetur acing elit. Aenean esrsel piesn qersl ioinm sersoe non urna dolor aecena.
+                        </p>
+                        <div class="social-media">
+                            <a href="#"><i class="fa fa-facebook facebook"></i></a>
+                            <a href="#"><i class="fa fa-google-plus google"></i></a>
+                            <a href="#"><i class="fa fa-twitter twitter"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
 
     <!-- FOOTER -->
     <footer class="footer">
@@ -264,12 +296,14 @@
 <script src="assets/bootstrap/js/tooltip.js"></script>
 <script src="assets/bootstrap/js/popover.js"></script>
 
-
+<!-- Sripts for individual pages, depending on what plug-ins are used -->
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+    <script type="text/javascript" src="js/gmaps/google-maps-default.js"></script>
 
 
 <!--ACTIVA LOS BOTONES-->
 <script>
-    $("#i-cowork").addClass("active");
+    $("#i-contactus").addClass("active");
 </script>
 
 </body>
