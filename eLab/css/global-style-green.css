@@ -1826,16 +1826,16 @@
 	}
 
 	.step-1{
-		background: url(../images/steps/line-1.png) no-repeat 90px 45px;
+		background: url(../images/steps/line-1.png) no-repeat 160px 45px;
 		padding-bottom: 50px;
 	}
 
 	.step-2{
-		background: url(../images/steps/line-2.png) no-repeat 355px 35px;
+		background: url(../images/steps/line-2.png) no-repeat 190px 35px;
 	}
 
 	.step-3{
-		background: url(../images/steps/line-3.png) no-repeat 240px 35px;
+		background: url(../images/steps/line-3.png) no-repeat 103px 42px;
 		padding-bottom: 50px;
 	}
 
@@ -1869,7 +1869,7 @@
 		
 	.step-plan.p1{
 		width:450px;
-		margin-left: 0;
+		margin-left: 200px;
 		margin-bottom: 30px;
 		text-align: left;
 	}
@@ -1877,23 +1877,38 @@
 	.step1-detail{
 		width:55%;
 		margin-left: 200px;
+		font-size: 16px;
+	}
+	
+	.step2-detail{
+		width:60%;
+		margin-left: 110px;
+		margin-bottom: 30px;
+		font-size: 16px;
 	}
 
 	.step3-detail{
-		width:50%;
-		margin-left: 275px;
+		width:60%;
+		margin-left: 170px;
+		font-size: 16px;
+	}
+
+	.step4-detail{
+		width:550px;
+		margin-left: 25%;
+		font-size: 16px;
 	}
 
 	.step-plan.p2{
 		width:500px;
-		margin-left: 37%;
+		margin-left: 10%;
 		margin-bottom: 40px;
 		text-align: left;
 	}
 
 	.step-plan.p3{
 		width:650px;
-		margin-left: 25%;
+		margin-left: 10%;
 		margin-bottom: 40px;
 		text-align: left;
 	}
@@ -1902,6 +1917,14 @@
 		margin-left: 25%;
 		margin-bottom: 40px;
 		text-align: left;
+	}
+
+	.services-list{
+		width:40%;
+		margin-left: 360px;
+	}
+	.services-list > .service-item{
+
 	}
 
 	.wp-block.white .thmb-img i {
@@ -6805,6 +6828,8 @@
 
 	.section-title2{
 		font-size: 20px;
+		margin-left: 110px;
+		margin-bottom: 30px;	
 	}
 	.section-title.left {
 	    display:table-cell;
