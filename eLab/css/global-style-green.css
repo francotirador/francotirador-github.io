@@ -11197,3 +11197,94 @@
 		box-shadow: #cccccc 0 0 10px 0;
 		background: #d8d8d8;
 	 }
+
+	 .step-plan h2 span strong{
+	 	margin-left: none;
+	 	font-weight: 200;
+	 }
+
+	 @media (max-width:481px){
+			
+			.step-1, .step-2, .step-3{
+				background: url(../images/steps/line-mobile.png) no-repeat 5px 44px;
+			}
+
+			.step-4{
+				background: url(../images/steps/line2-mobile.png) no-repeat 5px 44px;
+			}
+
+		 	.step-plan.p1, .step-plan.p2, .step-plan.p3, .step-plan.p4{
+				margin-bottom: 10px;
+				margin-left: -10px;
+				text-align: left;
+				width: auto;
+				
+			}
+
+			.step1-detail, .step2-detail, .step3-detail, .step4-detail{
+				margin-left: 20px;
+				font-size: 14px;
+				width:auto;
+			}
+			
+			.step-plan{
+				background: url("../images/steps/bg-step-mobile.png") no-repeat scroll right top ;
+				padding: 10px;
+			}
+
+			.step-plan h2{
+				font-size: 18px;
+				color: #f2f2f1;
+				font-weight: 500;
+			}
+
+			.step-plan h2 span {
+			    color: #f2f2f1;
+			    margin-left: 0px;
+			    font-weight: 200;
+			}
+
+			.section-title2 {
+			    font-size: 16px;
+			    margin-bottom: 30px;
+			    margin-left: 20px;
+			}
+
+			.services-list{
+				width: auto;
+				margin-left: 0;
+			}
+
+			.thmb-img img{
+				width:60px;
+			}
+
+			.thmb-img img.ico-mockup{
+				height:60px;
+				width:30px;
+			}
+			
+			.wp-block.grey {
+				height: 130px;
+			}
+
+			.wp-block.grey h2 {
+			    font-size: 15px;
+			}
+
+			.steps{
+				margin-left: 20px;
+				margin-right: -30px;
+			}
+
+			.steps p {
+				color:#616161;
+				font-size: 15px;
+			    padding-bottom:8px;
+			    margin-bottom:20px;
+			}
+
+			.service-item p img{
+				width:50px;
+			}
+	 }
