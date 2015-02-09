@@ -11283,8 +11283,19 @@
 			    padding-bottom:8px;
 			    margin-bottom:20px;
 			}
+			
+			.service-item p{
+				clear:both;
+				display: block;
+				margin-bottom: 30px;
+			}
 
 			.service-item p img{
 				width:50px;
+				float:left;
+			}
+
+			.service-item p span{
+				width:80%;
 			}
 	 }
