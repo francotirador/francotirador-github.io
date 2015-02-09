@@ -1826,16 +1826,16 @@
 	}
 
 	.step-1{
-		background: url(../images/steps/line-1.png) no-repeat 160px 45px;
+		background: url(../images/steps/line-1.png) no-repeat 40px 45px;
 		padding-bottom: 50px;
 	}
 
 	.step-2{
-		background: url(../images/steps/line-2.png) no-repeat 190px 35px;
+		background: url(../images/steps/line-2.png) no-repeat 390px 35px;
 	}
 
 	.step-3{
-		background: url(../images/steps/line-3.png) no-repeat 103px 42px;
+		background: url(../images/steps/line-3.png) no-repeat 24px 42px;
 		padding-bottom: 50px;
 	}
 
@@ -1869,59 +1869,59 @@
 		
 	.step-plan.p1{
 		width:450px;
-		margin-left: 200px;
+		margin-left: 50px;
 		margin-bottom: 30px;
 		text-align: left;
 	}
 
 	.step1-detail{
 		width:55%;
-		margin-left: 200px;
+		margin-left: 70px;
 		font-size: 16px;
 	}
 	
 	.step2-detail{
 		width:60%;
-		margin-left: 110px;
+		margin-left: 193px;
 		margin-bottom: 30px;
 		font-size: 16px;
 	}
 
 	.step3-detail{
 		width:60%;
-		margin-left: 170px;
+		margin-left: 70px;
 		font-size: 16px;
 	}
 
 	.step4-detail{
 		width:550px;
-		margin-left: 31%;
+		margin-left: 13%;
 		font-size: 16px;
 	}
 
 	.step-plan.p2{
 		width:500px;
-		margin-left: 10%;
+		margin-left: 17%;
 		margin-bottom: 40px;
 		text-align: left;
 	}
 
 	.step-plan.p3{
 		width:650px;
-		margin-left: 10%;
+		margin-left: 0;
 		margin-bottom: 40px;
 		text-align: left;
 	}
 	.step-plan.p4{
 		width:550px;
-		margin-left: 31%;
+		margin-left: 13%;
 		margin-bottom: 40px;
 		text-align: left;
 	}
 
 	.services-list{
 		width:40%;
-		margin-left: 360px;
+		margin-left: 200px;
 	}
 	.services-list > .service-item{
 
