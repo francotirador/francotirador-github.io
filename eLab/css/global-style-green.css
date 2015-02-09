@@ -1826,16 +1826,16 @@
 	}
 
 	.step-1{
-		background: url(../images/steps/line-1.png) no-repeat 40px 45px;
+		background: url(../images/steps/line-1.png) no-repeat 38px 25px;
 		padding-bottom: 50px;
 	}
 
 	.step-2{
-		background: url(../images/steps/line-2.png) no-repeat 390px 35px;
+		background: url(../images/steps/line-2.png) no-repeat 257px 35px;
 	}
 
 	.step-3{
-		background: url(../images/steps/line-3.png) no-repeat 24px 42px;
+		background: url(../images/steps/line-3-.png) no-repeat 24px 42px;
 		padding-bottom: 50px;
 	}
 
@@ -1869,7 +1869,7 @@
 		
 	.step-plan.p1{
 		width:450px;
-		margin-left: 50px;
+		margin-left: 70px;
 		margin-bottom: 30px;
 		text-align: left;
 	}
@@ -1882,46 +1882,46 @@
 	
 	.step2-detail{
 		width:60%;
-		margin-left: 193px;
+		margin-left: 455px;
 		margin-bottom: 30px;
 		font-size: 16px;
 	}
 
 	.step3-detail{
 		width:60%;
-		margin-left: 70px;
+		margin-left: 71px;
 		font-size: 16px;
 	}
 
 	.step4-detail{
 		width:550px;
-		margin-left: 21%;
+		margin-left: 40%;
 		font-size: 16px;
 	}
 
 	.step-plan.p2{
 		width:500px;
-		margin-left: 17%;
+		margin-left: 40%;
 		margin-bottom: 40px;
 		text-align: left;
 	}
 
 	.step-plan.p3{
 		width:650px;
-		margin-left: 0;
+		margin-left: 71px	;
 		margin-bottom: 40px;
 		text-align: left;
 	}
 	.step-plan.p4{
 		width:550px;
-		margin-left: 21%;
+		margin-left: 40%;
 		margin-bottom: 40px;
 		text-align: left;
 	}
 
 	.services-list{
 		width:40%;
-		margin-left: 295px;
+		margin-left: 476px;
 	}
 	.services-list > .service-item{
 
@@ -11309,3 +11309,23 @@
 	 	text-align: justify;
 	 	font-size: 16px;
 	 }
+
+
+	 .col-md-1{
+	 	outline: 1px solid red;
+	 }
+
+	 .social-media i {
+	    background: none repeat scroll 0 0 #ddd;
+	    border-radius: 2px;
+	    color: #333;
+	    display: inline-block;
+	    font-size: 18px;
+	    height: 32px;
+	    line-height: 32px;
+	    margin-bottom: 10px;
+	    margin-right: 10px;
+	    text-align: center !important;
+	    width: 32px;
+	    z-index: 2200;
+	}
