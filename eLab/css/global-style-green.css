@@ -8532,7 +8532,7 @@
 	}
 	.btn-b-white {
 	    background-color:transparent;
-	    border:2px solid #fff;
+	    border:1px solid #fff;
 	    color:#fff !important
 	}
 	.btn-b-white:hover, .btn-b-white:focus, .btn-b-white:active, .btn-b-white.active, .open .dropdown-toggle.btn-b-white {
