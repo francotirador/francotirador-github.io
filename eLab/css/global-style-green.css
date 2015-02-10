@@ -1835,8 +1835,8 @@
 	}
 
 	.step-3{
-		background: url(../images/steps/line-3-.png) no-repeat 24px 42px;
-		padding-bottom: 50px;
+		background: url(../images/steps/line-3.png) no-repeat 21px 42px;
+		padding-bottom: 28px;
 	}
 
 	.steps p {
@@ -1875,22 +1875,25 @@
 	}
 
 	.step1-detail{
-		width:55%;
-		margin-left: 70px;
+		color:#1c1c1b;
 		font-size: 16px;
+		margin-left: 70px;
+		width:55%;
 	}
 	
 	.step2-detail{
-		width:60%;
+		color:#1c1c1b;
+		font-size: 16px;
 		margin-left: 455px;
 		margin-bottom: 30px;
-		font-size: 16px;
+		width:60%;
 	}
 
 	.step3-detail{
-		width:60%;
-		margin-left: 71px;
+		color:#1c1c1b;
 		font-size: 16px;
+		margin-left: 71px;
+		width:60%;
 	}
 
 	.step4-detail{
