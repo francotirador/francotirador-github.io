@@ -11332,3 +11332,10 @@
 	    width: 32px;
 	    z-index: 2200;
 	}
+
+	.figcaption-mobile{
+		background:#16a58e;
+		padding:5px 0;
+		margin-bottom: 20px;
+		text-align: center;
+	}
