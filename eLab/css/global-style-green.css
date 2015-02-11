@@ -11310,6 +11310,10 @@
 			}
 	 }
 
+	.ls-slide h3.phrase2{
+		font-size: 50px;		
+	}
+
 	 .recomendation p, .no-idea p{
 	 	text-align: justify;
 	 	font-size: 16px;
@@ -11340,4 +11344,8 @@
 		padding:5px 0;
 		margin-bottom: 20px;
 		text-align: center;
+	}
+
+	.prototyping p{
+		font-size:16px;
 	}
